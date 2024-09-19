@@ -1,8 +1,0 @@
-
-Anisha Fathimain a few seconds
-After changes: git add .
-git commit -m "
-After changes: git add .
-git commit -m "Second commit"
-git branch -M main
-git push -u origin main
