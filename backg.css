@@ -1,0 +1,31 @@
+.header{
+    color: red;
+    font-size: 40px;
+    text-align: center;
+}
+.p1{
+    color:greenyellow;
+    text-align: center;
+    font-size: 35px;
+}
+.p2{
+    color: red;
+    font-size: 35px;
+    padding: 90px;
+ }
+.main{
+    text-align: center;
+    color: whitesmoke;
+    font-family:'Archivo Narrow';
+    background: url(edge_background.jpg);
+    min-height: 500;
+    background-size: 100% 100%;
+}
+ 
+
+ .footer{
+    color: purple;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+ }
