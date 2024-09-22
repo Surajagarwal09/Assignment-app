@@ -1,0 +1,29 @@
+body{
+    margin: 20px;
+}   
+h1{
+    text-align: center;
+    padding: 15px;
+}
+form{
+    font-size: 25px;
+    margin-left: 30%;
+}
+label,input,textarea{
+    margin: 10px;
+}
+input{
+    width:23.7%;
+    height: 30px;
+    font-size: 18px;
+}
+#number{
+    width: 50% ;
+}
+#email{
+    width: 50%;
+}
+textarea{
+    width: 50%;
+    height: 30%;
+}
