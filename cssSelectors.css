@@ -1,0 +1,35 @@
+body{
+    margin: 20px;
+    text-align: center;
+}
+h1{
+    color: green;
+    font-style: italic;
+}
+
+h2{
+    color: royalblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.p1{
+    color: red;
+    text-align: end;
+    font-size: 30px;
+}
+.p2{
+    color: blueviolet;
+    text-align: left;
+    font-family: 'Lucida Sans',sans-serif;
+    font-size: x-small;
+}
+
+#div1{
+    color: chocolate;
+    font-size: 50px;
+}
+#div2{
+    color: orange;
+    font-size: 200px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
