@@ -6,7 +6,6 @@ nav {
     background-color:grey;
     overflow: hidden;
     display: flex;
-    justify-content: space-between;
     font-size: 18px;
     font-family: 'Alkatra', 'Archivo Narrow';
 }
@@ -40,14 +39,14 @@ nav ul{
     transform: scale(0.96);
   }
 .name{
-    display: flex;
+    display:inline-block;
     align-items: center;
-    margin-left: 85vh;
+    margin-left: 80vh;
     color: yellow;
     font-size: 27px;
 }
 .git{
-    margin-left: 58vh;
+    margin-left: 63vh;
 }
 
 pre{
