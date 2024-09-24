@@ -21,11 +21,13 @@ nav {
   }
 button{
     background-color: brown;
+    padding: 5px;
     border: none;
     outline: none;
+    border-radius: 5px; ;
     font-size: 18px;
 }
 
-button:hover{
-    color: aliceblue;
+nav ul button:hover{
+    background-color: rgba(160, 76, 76, 0.827);   
 }
