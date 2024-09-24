@@ -29,5 +29,6 @@ button{
 }
 
 nav ul button:hover{
-    background-color: rgba(160, 76, 76, 0.827);   
+    background-color: rgba(160, 76, 76, 0.827);
+    color: aliceblue;
 }
