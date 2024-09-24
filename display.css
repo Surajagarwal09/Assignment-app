@@ -7,21 +7,13 @@
     padding: 15px;
     gap: 10px;
 }
-.box2 {
-    padding: 5px;
-    border: 3px solid;
-    background-color: green;
-}.box3 {
+.box2,.box3{
     padding: 5px;
     border: 3px solid;
     background-color: green;
 }
-.box4 {
-    padding: 5px;
-    border: 3px solid;
-    background-color: maroon;
-}
-.box5 {
+
+.box4,.box5  {
     padding: 5px;
     border: 3px solid;
     background-color: maroon;
