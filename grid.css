@@ -1,0 +1,32 @@
+body{
+    margin:15%;
+}
+.container{
+    display: grid;
+    padding: 5px;
+    border: 3px solid;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.container div{
+    border-radius:10px;
+    padding: 10px;
+}
+.header{
+    grid-column: span 4;
+    background-color: orange;
+}
+.main{
+    grid-column: span 2;
+    background-color: blue;
+}
+.sidebar{
+    background-color: red;
+}
+.footer{
+    grid-column: span 4;
+    background-color: green;
+}

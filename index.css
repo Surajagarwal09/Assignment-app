@@ -1,83 +1,75 @@
 *{
-    padding:0%;
-    margin: 0%;
+  padding:0%;
+  margin: 0%;
 }
 nav {
-    background-color:grey;
-    overflow: hidden;
-    display: flex;
-    font-size: 18px;
-    font-family: 'Alkatra', 'Archivo Narrow';
-}
-
-.nav{
+  background-color:grey;
+  overflow: hidden;
+  display: flex;
   position: fixed;
   width: 100%;
+  justify-content: space-between;
+  font-size: 18px;
+  font-family: 'Alkatra', 'Archivo Narrow';
 }
 nav ul{
-    display: flex;
-    list-style-type: none;
-    height: 52px;
-    align-items: center;
-  }
-  
-  nav ul li {
-    padding: 0 14px;
-    font-weight: bold;
-  }
-  nav ul button{
-    border: none;
-    outline: none;
-    padding: 10px;
-    border-radius: 25px;
-    background-color:green;
-    color: lavender;
-    cursor: pointer;
-    transition: transform 0.2s ease;
-  }
-  nav ul button:active{
-    transform: scale(0.96);
-  }
+  display: flex;
+  list-style-type: none;
+  height: 52px;
+  align-items: center;
+} 
+nav ul li {
+  padding: 10px;
+  font-weight: bold;
+}
+nav ul button{
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 25px;
+  background-color:rgb(12, 126, 124);
+  color: lavender;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+nav ul button:active{
+  transform: scale(0.96);
+}
 .name{
-    display:inline-block;
-    align-items: center;
-    margin-left: 80vh;
-    color: yellow;
-    font-size: 27px;
+  display:flex;
+  color: yellow;
+  font-size: 27px;
 }
-.git{
-    margin-left: 63vh;
-}
-
 pre{
-    font-size: x-large;
-    padding-bottom: 25px;
-    margin-left: 15px;
+  margin-top: 40px ;
+  font-size: x-large;
+  padding-bottom: 25px;
+  margin-left: 15px;
 }
 p{
-    font-size: large;
-    margin-left: 15px;
+  font-size: large;
+  margin-left: 15px;
 }
 .contents{
-    margin-left: 30px;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 10px; 
+  display: grid;
+  margin-left: 30px;
+  grid-template-columns:repeat(3,1fr);
+  gap: px; 
 }
 .contents li{
-    padding: 20px;
+  padding: 20px;
 }
 .contents button {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    outline: none;
-    border-radius: 25px;
-    background-color:grey;
-    color:blanchedalmond;
-    cursor: pointer;
-    transition: transform 0.2s ease;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  background-color:grey;
+  color:blanchedalmond;
+  cursor: pointer;
+  transition: transform 0.2s ease;
 }
 ol button:active{
-    transform: scale(0.96);
-  }
+  transform: scale(0.96);
+}
