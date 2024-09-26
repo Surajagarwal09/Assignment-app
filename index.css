@@ -2,8 +2,11 @@
   padding:0%;
   margin: 0%;
 }
+body{
+  background-color:rgb(195, 239, 241);
+}
 nav {
-  background-color:grey;
+  background-color:rgb(125, 161, 155);
   overflow: hidden;
   display: flex;
   position: fixed;
@@ -65,7 +68,7 @@ p{
   border: none;
   outline: none;
   border-radius: 25px;
-  background-color:grey;
+  background-color:darkslategray;
   color:blanchedalmond;
   cursor: pointer;
   transition: transform 0.2s ease;
