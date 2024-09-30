@@ -1,0 +1,13 @@
+body{
+    display: flex;
+    
+    justify-content: center;
+}
+#carouselExampleCaptions{
+    margin-top: 10vh;
+    margin-top: 10vw;
+}
+img{
+    height: 50vh;
+    width: 100vh;
+}
